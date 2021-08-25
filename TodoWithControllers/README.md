@@ -8,7 +8,7 @@ On the command line, create the Todo SQLite database.
 dotnet ef datatbase update
 ```
 
-Then run the application and browse to https://localhost:<port>/swagger.
+Then run the application and browse to `https://localhost:<port>/swagger`.
 
 ```cmd
 dotnet run
