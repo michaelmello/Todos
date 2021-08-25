@@ -1,5 +1,5 @@
 # Todos with Controllers
-Simple todo application using controllers
+Simple todo application using controllers.
 
 ## How to Use
 On the command line, create the Todo SQLite database.
