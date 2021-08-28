@@ -3,7 +3,7 @@ using TodoWithControllers.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("Todos") ?? "Data Source=Todos.db";
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=Todos.db";
 // Add services to the container.
 
 builder.Services.AddControllers();

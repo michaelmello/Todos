@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TodoWithRazorPages.Models;
+namespace TodoWithControllers.Models;
 
-public class Todo
+public class TodoRequest
 {
     public int Id { get; set; }
     [Required]

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TodoWithControllers.Models;
+namespace TodoWithControllers.Data;
 
 public class Todo
 {
